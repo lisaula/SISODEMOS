@@ -1,0 +1,25 @@
+﻿Build started 07/12/2016 23:23:01.
+Project "C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\proc\proc.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "Debug\proc.lastbuildstate".
+InitializeBuildStatus:
+  Creating "Debug\proc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /Od /Oy /Gm- /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+  main.cpp
+main.cpp(19): warning C4405: 'str' : identifier is reserved word
+C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Debug\proc.exe) does not match the Linker's OutputFile property value (A:\proc.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+Link:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"A:\proc.exe" /NOLOGO /NODEFAULTLIB /MANIFEST /ManifestFile:"Debug\proc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Debug\proc.pdb" /SUBSYSTEM:NATIVE /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"processEntry" /BASE:"0x00400000" /DYNAMICBASE /FIXED:NO /NXCOMPAT /IMPLIB:"C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Debug\proc.lib" /MACHINE:X86 Debug\main.obj /ALIGN:512 
+LINK : warning LNK4108: /ALIGN specified without /DRIVER; image may not run
+  proc.vcxproj -> C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Debug\proc.exe
+Manifest:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"A:\proc.exe;#1" /manifest Debug\proc.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "Debug\proc.unsuccessfulbuild".
+  Touching "Debug\proc.lastbuildstate".
+Done Building Project "C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\proc\proc.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

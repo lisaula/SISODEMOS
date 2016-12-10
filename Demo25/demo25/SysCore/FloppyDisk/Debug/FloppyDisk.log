@@ -1,0 +1,20 @@
+﻿Build started 07/12/2016 23:23:00.
+Project "C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\FloppyDisk\FloppyDisk.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "Debug\FloppyDisk.lastbuildstate".
+InitializeBuildStatus:
+  Creating "Debug\FloppyDisk.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include\ /Zi /nologo /W4 /WX- /Ox /Oy /D ARCH_X86 /X /Gm- /EHsc /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt flpydsk.cpp
+  flpydsk.cpp
+Lib:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Debug\FloppyDisk.lib" /NOLOGO Debug\flpydsk.obj
+  FloppyDisk.vcxproj -> C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Debug\FloppyDisk.lib
+FinalizeBuildStatus:
+  Deleting file "Debug\FloppyDisk.unsuccessfulbuild".
+  Touching "Debug\FloppyDisk.lastbuildstate".
+Done Building Project "C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\FloppyDisk\FloppyDisk.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05

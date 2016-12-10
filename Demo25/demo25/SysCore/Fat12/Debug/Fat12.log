@@ -1,0 +1,22 @@
+﻿Build started 07/12/2016 23:23:01.
+Project "C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Fat12\Fat12.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "Debug\Fat12.lastbuildstate".
+InitializeBuildStatus:
+  Creating "Debug\Fat12.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Kernel /I..\Include /Zi /nologo /W1 /WX- /O2 /Oy- /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt fat12.cpp
+  fat12.cpp
+C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Include\ctype.h(39): warning C4005: 'isascii' : macro redefinition
+          C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Include\ctype.h(28) : see previous definition of 'isascii'
+Lib:
+  C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Debug\Fat12.lib" /NOLOGO Debug\fat12.obj
+  Fat12.vcxproj -> C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Debug\Fat12.lib
+FinalizeBuildStatus:
+  Deleting file "Debug\Fat12.unsuccessfulbuild".
+  Touching "Debug\Fat12.lastbuildstate".
+Done Building Project "C:\Users\Jimmy Banegas\Downloads\Demo25\demo25\SysCore\Fat12\Fat12.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.38
